@@ -36,8 +36,9 @@ h1 {
     height: 40px;
     padding: 5px;
     float: right;
-    margin-right: 30px;
+    margin-right: 38px;
     margin-top: 0px;
+    margin-left: auto;
     font-weight: bolder;
     position: relative;
 
@@ -70,38 +71,86 @@ h1 {
 }
 
 /********** For Desktop devices **********/
+
 @media (min-width: 992px) {
     .col-lg-4 {
         float: left;
-      width: 33.33%;
+        width: 33.33%;
     }
-  }
-  /********** For Tablet devices **********/
-  @media (min-width: 768px) and (max-width: 991px) {
-    .col-md-6,.col-md-12 {
-      float: left;
-    }
-    .col-md-6 {
-      width: 50%;
-    }
-    .col-md-12 {
-      margin-left: -10px;
-      width: 100%;
-    }
-    .name3{
-      margin-right: 65px;
-      width: 100px;
-    }
-  }
 
-  /********* For Mobile devices *********/
-  
-  @media (min-width: 0px) and (max-width: 767px) {
+    .Sushi {
+        margin-right: 38px;
+        width: 100px;
+    }
+
+    .Chicken {
+        margin-right: 38px;
+        width: 100px;
+    }
+
+    .Beef {
+        margin-right: 38px;
+        width: 100px;
+    }
+}
+
+/********** For Tablet devices **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .col-md-6,
+    .col-md-12 {
+        float: left;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-12 {
+        margin-left: -10px;
+        width: 100%;
+    }
+
+    .Sushi {
+        margin-right: 31px;
+        width: 100px;
+    }
+
+    .Chicken {
+        margin-right: 31px;
+        width: 100px;
+    }
+
+    .Beef {
+        margin-right: 31px;
+        width: 100px;
+    }
+}
+
+/********* For Mobile devices *********/
+
+@media (min-width: 0px) and (max-width: 767px) {
     .col-sm-12 {
         float: left;
-      width: 100%;
+        width: 100%;
     }
-    .content-name{
-      margin-right: 30px;
+
+    .box-name {
+        margin-right: 40px;
     }
-  }
+
+    .Sushi {
+        margin-right: 43px;
+        width: 100px;
+    }
+
+    .Chicken {
+        margin-right: 43px;
+        width: 100px;
+    }
+
+    .Beef {
+        margin-right: 43px;
+        width: 100px;
+    }
+}
